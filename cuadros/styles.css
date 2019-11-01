@@ -1,0 +1,71 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.espacio{
+	display: flex;
+	justify-content:center;
+	align-self: center;
+}
+.marco{
+	background-color:black;
+	width: 900px; /*Horrizontal*/
+	height: 600px; /*Vertical*/
+}
+.marco1{
+	display: flex;
+	background-color:black;
+	width: 900px; /*Horrizontal*/
+	height: 350px; /*Vertical*/
+}
+
+.cuadro-lila{
+	display:flex;
+	background-color:purple;
+	width: 900px;
+	height: 150px;
+	justify-content:space-between; /*Alineamiento horizontal*/
+	align-items:center; /*Alinear verticalmente*/
+}
+.cuadro-rosa{
+	background-color:pink;
+	width: 250px;
+	height:50px;
+	border:1px solid black;
+}
+.cuadro-azul{
+	display:flex;
+	background-color:blue;
+	width:700px;
+	height:350px;
+	justify-content:space-around;
+	align-items:flex-end;
+}
+.cuadro-amarillo{
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+	border:1px solid black;
+}
+.cuadro-cafe{
+	display:flex;
+	background-color:brown;
+	width:200px;
+	height:350px;
+	border:1px solid black;
+	flex-direction: column;
+	align-items: center;
+}
+
+.amarillito{
+	display: flex;
+	background-color: yellowgreen;
+	width: 900px;
+	height: 100px;
+	justify-content: center;
+}
+
+
+
+
