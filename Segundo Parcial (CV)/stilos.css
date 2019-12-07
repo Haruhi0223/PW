@@ -142,10 +142,14 @@
 		font-size: 80%;
 	}
 	li{
-		margin-left: 10px;
+		margin-left: 20%;
 		text-align: left;
-	}
+		font-size: 100%;
 
+	}
+	h1{
+		font-size: 100%;
+	}
 }
 
 /*Tablet styles*/
